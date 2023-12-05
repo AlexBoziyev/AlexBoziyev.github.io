@@ -1,0 +1,13 @@
+.header { \* All header viswualisation*/
+	height: 20px;
+	background-color: rgb(	255, 255, 255);
+	border: 10px;
+	margin: 20px;
+	padding: 600px;
+	text-align: center;
+}
+.body{ \* All header viswualisation*/
+	background-color: rgb(255, 255, 255);
+}
+
+	
