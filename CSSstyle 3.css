@@ -1,0 +1,42 @@
+.sea {
+   background-image: url("seagull.png");
+ background:linear-gradient(to right, #CF9FFF, white);
+ box-shadow: 3px 3px 10px
+}
+.tic
+{ 
+  border: 40px solid transparent;
+  padding: 0px;
+  border-image-source: url(file:///C:/Users/Alex/Desktop/images/border.png);
+  border-image-repeat: round;
+  border-image-slice: 60; 
+  width: 500px;
+  height:225px;
+}
+
+.field {
+position:absolute;
+filter:grayscale(100%);
+}
+.img{
+position:absolute;
+filter:sepia(100%) hue-rotate(190deg) saturate(500%) drop-shadow(15px 3px 2px #000000);
+ }
+.penguins{
+filter:sepia(100%);
+border:solid 1px solid black;
+border-radius:1000px;
+}
+.stage_teater { 
+  filter: blur(4px) }
+  .stage_teater_text {
+  font-size: 30px;
+    bottom: 210px;
+  padding-left: 130px;
+   color: white;
+ position: relative;
+ }
+ .But_Things{
+	   border-radius:100px 0px 100px 0px;
+	   filter:sepia(100%) hue-rotate(190deg) saturate(500%)
+   }
