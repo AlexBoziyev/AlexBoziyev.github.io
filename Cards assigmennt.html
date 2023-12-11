@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <title>Cards assigment</title>
+<style>
+
+body {
+  font-family: cursive;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: green;;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #FFFF00;
+  color: black;
+  transform: rotateY(180deg);
+}
+@keyframes myAnimation {
+from { color: #FFFFFF; }
+to { color: #000000; }
+}
+.myAnimation {
+animation-name:myAnimation;
+animation-duration:5s;
+}
+</style>
+</head>
+ <body style="background-image:url(https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww)">
+<div>
+ <center> <h1 class="myAnimation">Costumers Cars info<h1></center>
+ </div>
+<h1> 1 Costumers Fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which country makes the best cars  in Europe?</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Germany</h1> 
+    </div>
+  </div>
+</div>
+<h1> 2 Costumer Fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which country makes the best cars  in Europe?</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Japan</h1> 
+    </div>
+  </div>
+</div>
+<h1> 3 Costumer Fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which car is safest in the world?</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Volvo XC 70 2008</h1> 
+    </div>
+  </div>
+</div>
+<h1> 4 Costumer fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which car and brand is the most relieble</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Subaru and Subaru Outback 2013</h1> 
+    </div>
+  </div>
+</div>
+<h1> 5 Costumer fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which car brand has the most VIP + Lux cars?</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Mercedes-Benz</h1> 
+    </div>
+  </div>
+</div>
+<h1> 6 Costumer fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which car is the most sport in Europe </h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Audi RS6 2018 4.2 gasoline turbo engine, BMW M8 Coupe 2020 5.0 diesel twin-turbo engine, Mercedes-Benz cls 2012 5.0 bi-turbo engine</h1> 
+    </div>
+  </div>
+</div>
+<h1> 7 Costumer Fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which car is the most sport in Asia</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Subaru WRX STI 3.6 oposite engine, Toyota Supra 3.2 twin-turbo engine, Nissan SkyLine 3.0 Paul-bi-s gasoline engine</h1> 
+    </div>
+  </div>
+</div>
+<h1> 8 Costumer Fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Which car and brand is the most unrelieble</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>Mersedes-benz and Volkswagen Golf GTI</h1> 
+    </div>
+  </div>
+  </div>
+  <h1> 9 Costumer Fact </h1>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>The best car engine in the world</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1> EJ207 2.5 L gasoline Subaru Impreza engine</h1> 
+    </div>
+  </div>
+</body>
+</html>
+					
+					
+					
